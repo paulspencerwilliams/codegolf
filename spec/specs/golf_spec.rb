@@ -106,14 +106,14 @@ describe "fourth hole" do
     # 9 2
     # 6 1
     specify {
-      expect(run_script('04', '2 3 3 5 8 8 7 0 9 9 6').split("\n").sort.join("\n")).to eq('2 1
+      expect(run_script('04', '2 3 3 5 8 8 7 0 9 9 6').split("\n").sort.join("\n")).to eq('0 1
+2 1
 3 2
 5 1
-8 2
+6 1
 7 1
-0 1
-9 2
-6 1'
+8 2
+9 2'
                                                                                        )
     }
     specify {
