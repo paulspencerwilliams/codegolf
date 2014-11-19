@@ -137,13 +137,14 @@ describe "fifth hole" do
 3
 had
 goat
-fleece').to eq('goat fleece'))
-      expect(run_script('05', 'It was the best of times, it was the worst of times
+fleece')).to eq('goat fleece')
+    }
+    specify {
+        expect(run_script('05', 'It was the best of times, it was the worst of times
 3
 worst
 times
-ever').to eq('ever'))
-
+ever')).to eq('ever')
     }
     specify {
       score('05')
