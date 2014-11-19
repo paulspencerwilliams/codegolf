@@ -155,10 +155,10 @@ end
 describe "sixth hole" do
   describe "a checker that returns 1 if a sentence from STDIN is palindromic and 0 otherwise" do
     specify {
-      expect(run_script('06', "Not a palindrome").to eq('0'))
+      expect(run_script('06', "Not a palindrome")).to eq('0')
     }
     specify {
-      expect(run_script('06', "A car, a man, a maraca").to eq('1'))
+      expect(run_script('06', "A car, a man, a maraca")).to eq('1')
     }
     specify {
       score("06")
